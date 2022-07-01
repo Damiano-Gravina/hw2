@@ -1,0 +1,203 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin : 0px;
+}
+
+#header{
+    background-color: rgb(214, 157, 226);
+    height: 80px;
+    width: 100vw;
+}
+
+#header a{
+    color : white;
+    position: relative;
+    top: 30px;
+    margin-right: 20px;
+    left: 80vw;
+    font-size: 1.3em;
+    text-decoration: none;
+    z-index: 2;
+}
+
+#icon{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    z-index: 2;
+    font-size: 2.5em;
+    background-color: rgb(233, 101, 233);
+    height: fit-content;
+    width: fit-content;
+    border-radius: 15%;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0px 5px 0px 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding-top: 20px;
+    min-height : 800px;
+    height : fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+#new_sale{
+    display: block;
+    margin-top: 30px;
+    border: 2px solid rgb(83, 81, 81);
+    height: 30px;
+    width: 35%;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#musicPlaylists{
+    position: absolute;
+    width: 18%;
+    left: 1vw;
+    top: 250px;
+}
+
+#musicPlaylists a{
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+    color: rgb(217, 72, 217)
+}
+
+
+.post{
+    width: 70%;
+    min-height: 100px;
+    height: fit-content;
+    border: 2px solid rgb(83, 81, 81);
+    padding: 10px;
+    padding-bottom:5px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.postTitle{
+    display: block;
+    font-size: 1.3em;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 95%;
+}
+
+.post p{
+    display: block;
+    color: black;
+    margin-top: 30px;
+    height: fit-content;
+    min-height: 150px;
+    width: 90%;
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.toolbar{
+    display: flex;
+    justify-content: right;
+}
+
+.toolbar span{
+    color: rgb(83, 81, 81);
+    margin-right: 5px;
+}
+
+
+.post_user_image{
+    display: inline-block;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: rgb(214, 157, 226);
+    background-position: center;
+    background-size:cover;
+    border: 1px solid rgb(76, 76, 76);
+    text-decoration: none;
+}
+
+.post_user_initials{
+    display:block;
+    padding-left: 2px;
+    padding-top: 5px;
+}
+
+.post_user_username{
+    display: inline;
+    color:purple;
+    text-decoration: none;
+}
+
+.noButtonEsthetic{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.no_decoration{
+    text-decoration: none;
+    color: purple;
+}
+
+#numFavourites{
+    position: absolute;
+    left: 1vW;
+    top: 100px;
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#number{
+    font-size: 2em;
+    color: purple;
+}
+
+
+@media (max-width: 900px){
+
+    #title_image strong{
+        font-size: 2.5em;
+    }
+
+    body{
+        font-size: 0.8em;
+    }
+}
+
+
+@media (max-width: 1000px){
+
+    #musicPlaylists{
+        width: 12%;
+    }
+    }
