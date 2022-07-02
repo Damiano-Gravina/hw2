@@ -9,6 +9,7 @@
 
 @section('header')
 <link rel="stylesheet" href="{{ asset('css/myProfile.css') }}">
+<script src="{{ asset('js/userProfile.js') }}" defer></script>
 <script src="{{ asset('js/userProfileShop.js') }}" defer></script>
 @endsection
 
