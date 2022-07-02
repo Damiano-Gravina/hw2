@@ -1,16 +1,3 @@
-function emailVisualization(){
-    emailBoolean = document.querySelector("#visualizeEmail").textContent;
-    emailButton = document.querySelector("#email_button");
-
-
-    if(emailBoolean == 1){
-        emailButton.textContent = "Nascondi Email agli utenti";
-
-    }else{
-        emailButton.textContent = "Rendi Email visibile agli utenti";
-    }
-}
-
 function modifyShopDetails(event){
     event.preventDefault();
     console.log("click");
@@ -29,8 +16,5 @@ function denyShopDetailsModification(event){
 
 }
 
-
-
-emailVisualization();
 document.querySelector("#shop_details_button").addEventListener("click", modifyShopDetails);
 document.querySelector("#cancel_modification_button").addEventListener("click", denyShopDetailsModification)
